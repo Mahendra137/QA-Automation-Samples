@@ -1,0 +1,69 @@
+# Create a sample Postman collection JSON file based on the banking APIs Mahendra described.
+import json
+
+postman_collection = {
+    "info": {
+        "name": "Banking APIs",
+        "_postman_id": "12345678-90ab-cdef-ghij-klmnopqrstuv",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Login",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": json.dumps({
+                        "username": "mahendra",
+                        "password": "password123"
+                    })
+                },
+                "url": {
+                    "raw": "https://api.bank.com/login",
+                    "host": ["api", "bank", "com"],
+                    "path": ["login"]
+                }
+            }
+        },
+        {
+            "name": "Get Balance",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.bank.com/accounts/1001/balance",
+                    "host": ["api", "bank", "com"],
+                    "path": ["accounts", "1001", "balance"]
+                }
+            }
+        },
+        {
+            "name": "Fund Transfer",
+            "request": {
+                "method": "POST",
+                "body": {
+                    "mode": "raw",
+                    "raw": json.dumps({
+                        "fromAccount": "1001",
+                        "toAccount": "1002",
+                        "amount": 500
+                    })
+                },
+                "url": {
+                    "raw": "https://api.bank.com/transfer",
+                    "host": ["api", "bank", "com"],
+                    "path": ["transfer"]
+                }
+            }
+        }
+    ]
+}
+
+# Save the JSON to a file
+file_path = "/mnt/data/Banking_APIs.postman_collection.json"
+with open(file_path, "w") as f:
+    json.dump(postman_collection, f, indent=2)
+
+file_path
