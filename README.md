@@ -1,32 +1,31 @@
-# QA Automation Samples
+# QA Automation Samples - Banking Domain
 
-Hi! I'm Mahendra Dhembre — a Software Test Engineer with 3.8+ years of experience in Manual, Automation, and API Testing.
+Hi, I'm **Mahendra Dhembre** — currently working as a **Software Test Engineer at HDFC Bank** with 3.8+ years of hands-on experience in Manual, Automation, and API Testing across banking applications.
 
-This repository showcases my sample work in test automation, API testing, and database testing.
+This repository showcases my practical experience and sample projects based on real-time scenarios in the **banking domain**.
 
 ---
 
-## 🔧 Tools & Technologies
+## 🏦 Domain Expertise: Banking / Financial Services
 
-- Selenium WebDriver (Java + TestNG)
-- Postman & REST API Testing
-- Oracle SQL
-- JIRA, ServiceNow
-- Linux Server Commands
-- Kibana, Grafana (Monitoring)
+### Applications worked on:
+- 🔹 **IDCOM** – Internal banking workflows
+- 🔹 **Apigee** – API Gateway for internal/external integrations
+- 🔹 Loan, Account, Transaction, and Fund Transfer modules
+
+---
+
+## 🔧 Skills & Tech Stack
+
+- **Selenium WebDriver + Java + TestNG**
+- **Postman** (REST API Testing)
+- **Oracle SQL**
+- **Jira, ServiceNow** (Bug tracking & Test case mgmt)
+- **Linux CLI**
+- **Kibana, Grafana** (Log Monitoring)
+- **CyberArk** (Secure access)
 
 ---
 
 ## 📁 Project Structure
 
-
----
-
-## 🚀 Highlights
-
-✅ Selenium test for login functionality  
-✅ Sample Postman collection for banking APIs  
-✅ Real-time SQL queries used in QA scenarios  
-✅ Neatly organized & recruiter-friendly
-
----
